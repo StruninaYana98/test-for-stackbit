@@ -1,0 +1,18 @@
+.takui-dropdown {
+  position: relative;
+
+  .takui-dropdown-subject {
+    position: static;
+  }
+
+  .takui-dropdown-list-items {
+    position: absolute;
+    display: none;
+  }
+
+  &:hover {
+    .takui-dropdown-list-items {
+      display: block;
+    }
+  }
+}
