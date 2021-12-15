@@ -1,0 +1,63 @@
+.takui-c-eyebrow-menu {
+  background-color: #fff;
+  min-height: 4.6875rem;
+  border-top: 0.875rem solid #e1242a;
+  border-bottom: 0.0625rem solid #ddd;
+
+  .takui-c-site-width {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 4.6875rem;
+  }
+
+  .takui-c-eyebrow-logo {
+    .takui-ico-svg {
+      width: 7.1875rem;
+      height: 2.5rem;
+    }
+  }
+
+  .takui-c-links-container {
+    display: flex;
+    margin: 0 0 0 1.25rem;
+    align-items: center;
+  }
+
+  li {
+    margin-right: 2.375rem;
+
+    a {
+      color: #898989;
+      font-weight: normal;
+      text-decoration: none;
+      outline: none;
+
+      &:hover {
+        color: #e1242a;
+      }
+    }
+  }
+
+  .takui-c-right-search {
+    width: 15.3125rem;
+    height: 2.5rem;
+    position: relative;
+  }
+  input {
+    padding: 0.6875rem 3.125rem 0.6875rem 0.875rem;
+    border-radius: 0;
+    border: 0.0625rem solid #efefef;
+    background-color: #efefef;
+    font-size: 0.875rem;
+  }
+
+  .takui-input-ico {
+    bottom: 0.0625rem;
+  }
+
+  .takui-btnicon-inverted {
+    background-color: #efefef;
+    height: 100%;
+  }
+}
