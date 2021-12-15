@@ -1,0 +1,21 @@
+.takui-search-box {
+  position: relative;
+
+  .takui-input-ico {
+    position: absolute;
+    top: 0.09375rem;
+    right: 0.125rem;
+  }
+
+  .takui-btnicon-inverted {
+    width: 2.5rem;
+    height: auto;
+    border-radius: 50%;
+    padding: 0.4rem;
+  }
+}
+
+.takui-form-group-input {
+  margin-bottom: 1.5rem;
+  margin-top: 0;
+}
