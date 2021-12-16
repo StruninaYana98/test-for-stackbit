@@ -13,6 +13,7 @@ export default function Home() {
 
       <main>
         <Header/>
+        <p>Test!!</p>
       </main>
     </div>
   );
