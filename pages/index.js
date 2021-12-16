@@ -13,7 +13,7 @@ export default function Home() {
 
       <main>
         <Header/>
-        <p>Test!!</p>
+        <p>NEW TEXT</p>
         <p>Test!!</p>
       </main>
     </div>
