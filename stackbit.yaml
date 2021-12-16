@@ -1,5 +1,5 @@
 stackbitVersion: ~0.3.0
 ssgName: nextjs
-nodeVersion: 14
+nodeVersion: 12
 publishDir: out
 cmsName: git
