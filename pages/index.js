@@ -14,6 +14,7 @@ export default function Home() {
       <main>
         <Header/>
         <p>Test!!</p>
+        <p>Test!!</p>
       </main>
     </div>
   );
