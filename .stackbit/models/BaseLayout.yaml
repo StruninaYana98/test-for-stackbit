@@ -1,5 +1,6 @@
 type: page
 name: BaseLayout
+label: 
 layout: BaseLayout
 hideContent: true
 fields:
