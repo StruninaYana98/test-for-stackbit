@@ -24,7 +24,10 @@ models:
       - type: list
         name: sections
         label: Section
-         
+        items:
+         type: model
+      models:
+        - SectionBanner 
   config:
     type: data
     label: Config
