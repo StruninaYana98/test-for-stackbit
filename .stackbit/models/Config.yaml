@@ -58,7 +58,7 @@ fields:
     fields:
       - type: string
         name: icon
-            label: Icon
+        label: Icon
           - type: string
             name: placeholder
             label: Placeholder
