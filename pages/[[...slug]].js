@@ -6,7 +6,6 @@ import SectionBanner from "../components/organisms/banners/SectionBanner";
 export default function Page({ site, page }) {
   return (
     <BaseLayout site={site} page={page}>
-
       <SectionBanner
        backgroundImagePath={"/images/hero-bg.jpg"}
         title={"[Lorem Ipsum]"}
