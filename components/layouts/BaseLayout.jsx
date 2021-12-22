@@ -18,7 +18,7 @@ export default function BaseLayout({ site, page, children }) {
       />
       <main className="c-layout-main">
         <div className="takui-c-site-width">
-            <p>CCCCCCCC</p>
+            <p>BBBBBBBBBB</p> 
         {sections.length > 0 && (
                     <div data-sb-field-path="sections">
                         {sections.map((section, index) => {
