@@ -1,6 +1,6 @@
 type: data
 label: Config
-    file: config.json
+file: config.json
     fields:
       - type: list
         name: mainNavigation
