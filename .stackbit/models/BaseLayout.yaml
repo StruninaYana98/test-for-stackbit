@@ -8,7 +8,7 @@ fields:
     label: Title
     default: This is a new page
     required: true
-    fields:
+
   - type: string
     name: title
     label: Title
