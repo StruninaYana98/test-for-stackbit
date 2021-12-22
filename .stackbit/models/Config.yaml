@@ -20,9 +20,9 @@ fields:
               label: Href
         - type: list
           name: subNavigation
-              label: Sub Navigation
-              items:
-                type: object
+          label: Sub Navigation
+          items:
+            type: object
                 fields:
                   - type: string
                     name: text
