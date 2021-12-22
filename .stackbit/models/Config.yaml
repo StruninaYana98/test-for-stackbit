@@ -61,7 +61,7 @@ fields:
         label: Icon
       - type: string
         name: placeholder
-            label: Placeholder
+        label: Placeholder
       - type: object
         name: footerLogo
         label: Footer Logo
