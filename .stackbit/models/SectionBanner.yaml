@@ -4,7 +4,7 @@ label: Section Banner
 labelField: title
 extends:
   - Section
-  fields:
+fields:
   - type: string
     name: label
     label: Label
