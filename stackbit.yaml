@@ -22,7 +22,8 @@ models:
         name: title
         label: Title
       - type: list
-        name: sections 
+        name: sections
+         
   config:
     type: data
     label: Config
