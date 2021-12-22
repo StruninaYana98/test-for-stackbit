@@ -8,6 +8,10 @@ assets:
   staticDir: public
   uploadDir: images
   publicPath: /
+dataDir: content/data
+pagesDir: content/pages
+pageLayoutKey: layout
+objectTypeKey: type
 contentModels:
   BaseLayout:
     isPage: true
