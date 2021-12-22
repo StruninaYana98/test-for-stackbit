@@ -46,8 +46,8 @@ fields:
     items:
       type: object
       fields:
-            - type: string
-              name: text
+        - type: string
+          name: text
               label: Text
             - type: string
               name: href
