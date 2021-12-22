@@ -10,7 +10,7 @@ fields:
       fields:
         - type: object
           name: mainLink
-              label: Main Link
+          label: Main Link
               fields:
                 - type: string
                   name: text
