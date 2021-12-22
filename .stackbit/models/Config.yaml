@@ -13,8 +13,8 @@ fields:
           label: Main Link
           fields:
             - type: string
-                  name: text
-                  label: Text
+              name: text
+              label: Text
                 - type: string
                   name: href
                   label: Href
