@@ -12,7 +12,6 @@ assets:
   uploadDir: images
   publicPath: /
 contentModels:
-  contentModels:
   BaseLayout:
     isPage: true
     urlPath: '/{slug}'
