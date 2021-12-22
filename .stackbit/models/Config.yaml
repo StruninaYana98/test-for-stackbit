@@ -32,7 +32,7 @@ fields:
                 label: Href
   - type: object
     name: headerLogo
-        label: Header Logo
+    label: Header Logo
         fields:
           - type: string
             name: href
