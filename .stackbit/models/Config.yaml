@@ -23,7 +23,7 @@ fields:
           label: Sub Navigation
           items:
             type: object
-                fields:
+            fields:
                   - type: string
                     name: text
                     label: Text
