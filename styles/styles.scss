@@ -5,6 +5,7 @@
 @import "./atoms/icons/icon";
 @import "./atoms/buttons/iconButton";
 @import "./atoms/inputs/inputText";
+@import "./atoms/buttons/outlineButtonIcon";
 
 //molecules
 @import "./molecules/lists/horizontalList";
@@ -15,7 +16,12 @@
 //organisms
 @import "./organisms/menu/eyebrowMenu";
 @import "./organisms/menu/mainMenu";
-@import "./organisms/menu/mobile_Menu";
+@import "./organisms/menu/mobileMenu";
+@import "./organisms/header/header";
+@import "./organisms/footer/footer";
+@import "./organisms/banners/sectionBanner";
 
-//templates
-@import "./templates/sharedLayout";
+
+//layouts
+@import "./layouts/baseLayout";
+

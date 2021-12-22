@@ -1,0 +1,151 @@
+{
+  "type": "Config",
+  "mainNavigation": [
+    {
+      "mainLink": {
+        "text": "About",
+        "href": "#"
+      },
+      "subNavigation": [
+        {
+          "text": "Our Profile",
+          "href": "#"
+        },
+        {
+          "text": "Overview of Takeda",
+          "href": "#"
+        },
+        {
+          "text": "Oncology Leadership",
+          "href": "#"
+        },
+        {
+          "text": "Careers",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "mainLink": {
+        "text": "Science",
+        "href": "#"
+      },
+      "subNavigation": [
+        {
+          "text": "R&D Approach",
+          "href": "#"
+        },
+        {
+          "text": "Scientific Platforms",
+          "href": "#"
+        },
+        {
+          "text": "Pipeline",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "mainLink": {
+        "text": "Medicines",
+        "href": "#"
+      },
+      "subNavigation": [
+        {
+          "text": "Global",
+          "href": "#"
+        },
+        {
+          "text": "United States",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "mainLink": {
+        "text": "Patients",
+        "href": "#"
+      },
+      "subNavigation": [
+        {
+          "text": "Patient Advocacy",
+          "href": "#"
+        },
+        {
+          "text": "Disease Education",
+          "href": "#"
+        },
+        {
+          "text": "Takeda Patient Support Program",
+          "href": "#"
+        }
+      ]
+    }
+  ],
+  "headerLogo": {
+    "href": "#",
+    "icon": "takeda"
+  },
+  "headerPrimaryLinks": [
+    {
+      "text": "Clinical Trials",
+      "href": "#"
+    },
+    {
+      "text": "Careers",
+      "href": "#"
+    },
+    {
+      "text": "Contact Us",
+      "href": "#"
+    }
+  ],
+  "headerSearch":{
+   "icon":"search",
+   "placeholder":"Search Takeda Oncology"
+  },
+
+  "footerLogo": {
+    "icon": "takeda-with-stroke",
+    "href": "#"
+  },
+  "footerPrimaryLinks": [
+    {
+      "text": "Privacy notice",
+      "href": "#",
+      "icon": "external"
+    },
+    {
+      "text": "Term of use",
+      "href": "#",
+      "icon": "external"
+    },
+    {
+      "text": "Social media policy",
+      "href": "#"
+    },
+    {
+      "text": "Contact us",
+      "href": "#"
+    }
+  ],
+  "footerCopyrightText": "© 2021 Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpatt. Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat. Curabitur lobortis id lorem id bibendum.",
+  "socialMediaLinks": [
+    {
+      "href": "#",
+      "icon": "instagram"
+    },
+    {
+      "href": "#",
+      "icon": "facebook"
+    },
+    {
+      "href": "#",
+      "icon": "twitter"
+    },
+    {
+      "href": "#",
+      "icon": "linkedin"
+    }
+  ]
+}
