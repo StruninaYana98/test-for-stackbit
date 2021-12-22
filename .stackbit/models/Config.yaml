@@ -35,7 +35,7 @@ fields:
     label: Header Logo
     fields:
       - type: string
-            name: href
+        name: href
             label: Href
           - type: string
             name: icon
