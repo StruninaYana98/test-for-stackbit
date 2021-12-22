@@ -18,4 +18,8 @@ contentModels:
     isPage: true
     urlPath: '/{slug}'
     newFilePath: '{slug}.md'
+modelsSource:
+  type: files
+  modelDirs:
+    - .stackbit/models
   
