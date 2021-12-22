@@ -1,0 +1,104 @@
+type: data
+    label: Config
+    file: config.json
+    fields:
+      - type: list
+        name: mainNavigation
+        label: Main Navigation
+        items:
+          type: object
+          fields:
+            - type: object
+              name: mainLink
+              label: Main Link
+              fields:
+                - type: string
+                  name: text
+                  label: Text
+                - type: string
+                  name: href
+                  label: Href
+            - type: list
+              name: subNavigation
+              label: Sub Navigation
+              items:
+                type: object
+                fields:
+                  - type: string
+                    name: text
+                    label: Text
+                  - type: string
+                    name: href
+                    label: Href
+      - type: object
+        name: headerLogo
+        label: Header Logo
+        fields:
+          - type: string
+            name: href
+            label: Href
+          - type: string
+            name: icon
+            label: Icon
+      - type: list
+        name: headerPrimaryLinks
+        label: Header Primary Links
+        items:
+          type: object
+          fields:
+            - type: string
+              name: text
+              label: Text
+            - type: string
+              name: href
+              label: Href
+      - type: object
+        name: headerSearch
+        label: Header Search
+        fields:
+          - type: string
+            name: icon
+            label: Icon
+          - type: string
+            name: placeholder
+            label: Placeholder
+      - type: object
+        name: footerLogo
+        label: Footer Logo
+        fields:
+          - type: string
+            name: icon
+            label: Icon
+          - type: string
+            name: href
+            label: Href
+      - type: list
+        name: footerPrimaryLinks
+        label: Footer Primary Links
+        items:
+          type: object
+          fields:
+            - type: string
+              name: text
+              label: Text
+            - type: string
+              name: href
+              label: Href
+            - type: string
+              name: icon
+              label: Icon
+      - type: string
+        name: footerCopyrightText
+        label: Footer Copyright Text
+      - type: list
+        name: socialMediaLinks
+        label: Social Media Links
+        items:
+          type: object
+          fields:
+            - type: string
+              name: href
+              label: Href
+            - type: string
+              name: icon
+              label: Icon
