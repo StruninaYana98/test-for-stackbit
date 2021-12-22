@@ -71,16 +71,16 @@ fields:
         label: Icon
       - type: string
         name: href
-            label: Href
-      - type: list
-        name: footerPrimaryLinks
-        label: Footer Primary Links
-        items:
-          type: object
-          fields:
-            - type: string
-              name: text
-              label: Text
+        label: Href
+  - type: list
+    name: footerPrimaryLinks
+    label: Footer Primary Links
+    items:
+      type: object
+      fields:
+        - type: string
+          name: text
+          label: Text
             - type: string
               name: href
               label: Href
