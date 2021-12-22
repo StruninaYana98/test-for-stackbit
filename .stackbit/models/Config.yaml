@@ -62,7 +62,7 @@ fields:
       - type: string
         name: placeholder
         label: Placeholder
-      - type: object
+  - type: object
         name: footerLogo
         label: Footer Logo
         fields:
