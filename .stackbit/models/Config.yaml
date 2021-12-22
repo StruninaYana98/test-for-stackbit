@@ -39,7 +39,7 @@ fields:
         label: Href
       - type: string
         name: icon
-            label: Icon
+        label: Icon
       - type: list
         name: headerPrimaryLinks
         label: Header Primary Links
