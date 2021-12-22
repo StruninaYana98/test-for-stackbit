@@ -2,12 +2,3 @@ type: object
 name: SectionBanner
 label: Section Banner
 labelField: title
-fields:
-  - type: string
-    name: title
-    label: Title
-    default: My Section banner
-  - type: string
-    name: subtitle
-    label: Subtitle
-    default: this is my subtitle
