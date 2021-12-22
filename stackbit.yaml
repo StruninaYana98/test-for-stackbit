@@ -4,15 +4,15 @@ stackbitVersion: ~0.4.0
 ssgName: nextjs
 nodeVersion: '12'
 publishDir: out
-dataDir: content\data
-pagesDir: content\pages
-pageLayoutKey: layout
-objectTypeKey: type
 assets:
   referenceType: static
   staticDir: public
   uploadDir: images
   publicPath: /
+dataDir: content/data
+pagesDir: content/pages
+pageLayoutKey: layout
+objectTypeKey: type
 contentModels:
   BaseLayout:
     isPage: true
