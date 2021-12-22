@@ -16,7 +16,6 @@ contentModels:
     type: page
     label: Base Page
     layout: BaseLayout
-    hideContent: true
     urlPath: /{slug}
     newFilePath: '{slug}.md'
     fields:
