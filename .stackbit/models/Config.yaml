@@ -99,6 +99,6 @@ fields:
         - type: string
           name: href
           label: Href
-            - type: string
-              name: icon
-              label: Icon
+        - type: string
+          name: icon
+          label: Icon
