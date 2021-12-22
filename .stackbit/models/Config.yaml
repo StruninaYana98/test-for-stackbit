@@ -60,7 +60,7 @@ fields:
         name: icon
         label: Icon
       - type: string
-            name: placeholder
+        name: placeholder
             label: Placeholder
       - type: object
         name: footerLogo
