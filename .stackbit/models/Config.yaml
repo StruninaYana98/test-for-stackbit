@@ -1,7 +1,6 @@
 type: data
 name: Config
 label: Site config
-singleInstance: true
 fields:
   - type: list
     name: mainNavigation
