@@ -2,7 +2,7 @@ import Footer from "../organisms/footer/Footer";
 import Header from "../organisms/header/Header";
 import Head from "next/head";
 export default function BaseLayout({ site, page, children }) {
-     const sections = page.sections || [];
+  const sections = page.sections || [];
   return (
     <div className="site-container">
       <Head>
