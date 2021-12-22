@@ -1,6 +1,7 @@
 import Footer from "../organisms/footer/Footer";
 import Header from "../organisms/header/Header";
 import Head from "next/head";
+import SectionBanner from "../organisms/banners/SectionBanner";
 export default function BaseLayout({ site, page, children }) {
   const sections = page.sections || [];
   return (
@@ -20,7 +21,7 @@ export default function BaseLayout({ site, page, children }) {
         {sections.length > 0 && (
                     <div data-sb-field-path="sections">
                         {sections.map((section, index) => {
-                            const Component = <Secti
+                            const Component = <SectionBanner
                             if (!Component) {
                                 throw new Error(`no component matching the page section's type: ${section.type}`);
                             }
