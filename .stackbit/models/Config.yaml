@@ -8,7 +8,7 @@ fields:
     items:
       type: object
       fields:
-            - type: object
+        - type: object
               name: mainLink
               label: Main Link
               fields:
