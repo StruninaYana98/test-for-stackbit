@@ -3,7 +3,7 @@ label: Config
 file: config.json
 fields:
   - type: list
-        name: mainNavigation
+    name: mainNavigation
         label: Main Navigation
         items:
           type: object
