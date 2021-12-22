@@ -1,7 +1,6 @@
 type: data
 name: Config
 label: Site config
-labelField: label
 singleInstance: true
 fields:
   - type: list
