@@ -11,3 +11,5 @@ fields:
     name: subtitle
     label: Subtitle
     default: this is my subtitle
+  - type: string
+    name: 
