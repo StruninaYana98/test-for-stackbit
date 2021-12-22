@@ -2,8 +2,6 @@ type: object
 name: SectionBanner
 label: Section Banner
 labelField: title
-groups:
-  - sectionComponent
 fields:
   - type: string
     name: title
