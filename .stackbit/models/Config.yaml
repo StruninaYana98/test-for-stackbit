@@ -44,7 +44,7 @@ fields:
     name: headerPrimaryLinks
     label: Header Primary Links
     items:
-          type: object
+      type: object
           fields:
             - type: string
               name: text
