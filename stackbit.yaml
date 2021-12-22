@@ -22,6 +22,8 @@ models:
     label: Base Page
     layout: BaseLayout
     hideContent: true
+    urlPath: /{slug}
+    newFilePath: '{slug}.md'
     fields:
       - type: string
         name: title
