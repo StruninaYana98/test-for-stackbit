@@ -87,9 +87,6 @@ fields:
         - type: string
           name: icon
           label: Icon
-  - type: string
-    name: footerCopyrightText
-    label: Footer Copyright Text
   - type: list
     name: socialMediaLinks
     label: Social Media Links
