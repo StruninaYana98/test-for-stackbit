@@ -52,7 +52,7 @@ fields:
         - type: string
           name: href
           label: Href
-      - type: object
+  - type: object
         name: headerSearch
         label: Header Search
         fields:
