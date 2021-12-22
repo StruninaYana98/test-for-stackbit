@@ -33,7 +33,7 @@ fields:
   - type: object
     name: headerLogo
     label: Header Logo
-        fields:
+    fields:
           - type: string
             name: href
             label: Href
