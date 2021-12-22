@@ -94,9 +94,9 @@ fields:
     name: socialMediaLinks
     label: Social Media Links
     items:
-          type: object
-          fields:
-            - type: string
+      type: object
+      fields:
+        - type: string
               name: href
               label: Href
             - type: string
