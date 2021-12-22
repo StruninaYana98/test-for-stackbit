@@ -1,5 +1,5 @@
 name: BaseLayout
-label: Base
+label: Page
 layout: BaseLayout
 hideContent: true
 fields:
