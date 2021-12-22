@@ -54,7 +54,7 @@ fields:
           label: Href
   - type: object
     name: headerSearch
-        label: Header Search
+    label: Header Search
         fields:
           - type: string
             name: icon
