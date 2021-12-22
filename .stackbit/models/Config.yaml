@@ -41,8 +41,8 @@ fields:
         name: icon
         label: Icon
   - type: list
-        name: headerPrimaryLinks
-        label: Header Primary Links
+    name: headerPrimaryLinks
+    label: Header Primary Links
         items:
           type: object
           fields:
