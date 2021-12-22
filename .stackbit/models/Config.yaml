@@ -45,7 +45,7 @@ fields:
     label: Header Primary Links
     items:
       type: object
-          fields:
+      fields:
             - type: string
               name: text
               label: Text
