@@ -14,4 +14,3 @@ fields:
   - type: string
     name: backgroundImagePath
     label: Background Image Path
-    
