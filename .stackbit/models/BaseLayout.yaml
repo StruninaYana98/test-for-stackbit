@@ -1,3 +1,4 @@
+type: page
 name: BaseLayout
 label: Base Page
 layout: BaseLayout
