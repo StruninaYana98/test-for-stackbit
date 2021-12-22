@@ -1,4 +1,4 @@
 type: object
 name: Section
-label: Section Banner
+label: Section
 labelField: title
