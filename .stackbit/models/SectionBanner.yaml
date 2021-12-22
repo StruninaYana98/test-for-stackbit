@@ -10,7 +10,7 @@ fields:
     label: Title
     default: My Section banner
   - type: string
-    name: altText
+    name: 
     label: Alt text
     default: ''
     description: The alternative text for screen readers
