@@ -1,4 +1,4 @@
 type: object
-name: ContactSection
+name: SectionBanner
 label: Contact
 labelField: title
