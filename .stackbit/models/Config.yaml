@@ -37,7 +37,7 @@ fields:
       - type: string
         name: href
         label: Href
-          - type: string
+      - type: string
             name: icon
             label: Icon
       - type: list
