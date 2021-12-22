@@ -7,7 +7,7 @@ extends:
 fields:
   - type: string
     name: title
-    label: Label
+    label: Title
     default: Learn more
   - type: string
     name: altText
