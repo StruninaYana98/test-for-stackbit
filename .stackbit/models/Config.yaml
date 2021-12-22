@@ -24,7 +24,7 @@ fields:
           items:
             type: object
             fields:
-                  - type: string
+              - type: string
                     name: text
                     label: Text
                   - type: string
