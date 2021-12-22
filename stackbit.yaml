@@ -1,7 +1,8 @@
-stackbitVersion: ~0.4.0
+stackbitVersion: ~0.3.0
 ssgName: nextjs
-nodeVersion: '14'
+nodeVersion: 14
 publishDir: out
+cmsName: git
 assets:
   referenceType: static
   staticDir: public
