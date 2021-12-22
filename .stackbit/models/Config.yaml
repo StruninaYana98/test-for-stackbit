@@ -70,7 +70,7 @@ fields:
         name: icon
         label: Icon
       - type: string
-            name: href
+        name: href
             label: Href
       - type: list
         name: footerPrimaryLinks
