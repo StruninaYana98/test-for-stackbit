@@ -8,7 +8,7 @@ fields:
   - type: string
     name: title
     label: Title
-    default: Learn more
+    default: My Section banner
   - type: string
     name: altText
     label: Alt text
