@@ -2,3 +2,5 @@ type: object
 name: SectionBanner
 label: Section Banner
 labelField: title
+extends:
+  - Section
