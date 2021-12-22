@@ -48,7 +48,7 @@ fields:
       fields:
         - type: string
           name: text
-              label: Text
+          label: Text
             - type: string
               name: href
               label: Href
