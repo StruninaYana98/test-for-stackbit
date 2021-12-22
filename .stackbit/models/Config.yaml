@@ -7,7 +7,7 @@ fields:
     label: Main Navigation
     items:
       type: object
-          fields:
+      fields:
             - type: object
               name: mainLink
               label: Main Link
