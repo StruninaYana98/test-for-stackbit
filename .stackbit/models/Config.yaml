@@ -12,7 +12,7 @@ fields:
           name: mainLink
           label: Main Link
           fields:
-                - type: string
+            - type: string
                   name: text
                   label: Text
                 - type: string
