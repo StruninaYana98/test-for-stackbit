@@ -1,6 +1,6 @@
 type: data
 name: Config
-label: site config
+label: Site config
 file: config.json
 fields:
   - type: list
