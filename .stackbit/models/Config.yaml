@@ -1,7 +1,6 @@
+type: data
 name: Config
-label: Site configuration
-singleInstance: true
-readOnly: true
+label: Site config
 fields:
   - type: list
     name: mainNavigation
