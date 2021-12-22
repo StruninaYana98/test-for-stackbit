@@ -4,3 +4,18 @@ label: Section Banner
 labelField: title
 extends:
   - Section
+  fields:
+  - type: string
+    name: label
+    label: Label
+    default: Learn more
+  - type: string
+    name: altText
+    label: Alt text
+    default: ''
+    description: The alternative text for screen readers
+  - type: string
+    name: url
+    label: URL
+    default: '/'
+    required: true
