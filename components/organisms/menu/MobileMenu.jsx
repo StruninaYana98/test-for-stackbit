@@ -1,4 +1,5 @@
-import List from "../../molecules/lists/List";
+import Link from "../../atoms/links/Link";
+import LinksList from "../../molecules/lists/LinksList";
 
 export default function MobileMenu({ logo, items, bottomLinks }) {
   return (
@@ -6,22 +7,31 @@ export default function MobileMenu({ logo, items, bottomLinks }) {
       <ul className="takui-c-mobile-menu-list">
         <li className="takui-c-mobile-menu-item">
           <div className="takui-c-mobile-menu-logo">
-            <a href={logo.href}>{logo.text}</a>
+            <Link href={logo?.href} target={logo?.target}>
+              {logo?.text}
+            </Link>
           </div>
         </li>
         {items
           ? items.map((item, index) => (
               <li className="takui-c-mobile-menu-item" key={index}>
                 <div className="takui-c-mobile-menu-subject">
-                  <a href={item.href}>{item.subject.name}</a>
+                  <Link
+                    href={item?.mainLink?.href}
+                    target={item?.mainLink?.target}
+                  >
+                    {item?.mainLink?.text}
+                  </Link>
                 </div>
               </li>
             ))
           : null}
       </ul>
-      <div className="takui-c-mobile-links">
-        <List items={bottomLinks} />
-      </div>
+      {bottomLinks ? (
+        <div className="takui-c-mobile-links">
+          <LinksList items={bottomLinks} />
+        </div>
+      ) : null}
     </div>
   );
 }

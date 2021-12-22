@@ -1,7 +1,9 @@
 import Footer from "../organisms/footer/Footer";
 import Header from "../organisms/header/Header";
 import Head from "next/head";
+import SectionBanner from "../organisms/banners/SectionBanner";
 export default function BaseLayout({ site, page, children }) {
+  const sections = page.sections || [];
   return (
     <div className="site-container">
       <Head>
@@ -15,7 +17,17 @@ export default function BaseLayout({ site, page, children }) {
         headerSearch={site.headerSearch}
       />
       <main className="c-layout-main">
-        <div className="takui-c-site-width">{children}</div>
+        <div className="takui-c-site-width">
+            <p>AAAAAAAAAAA</p>
+        {sections.length > 0 && (
+                    <div data-sb-field-path="sections">
+                        {sections.map((section, index) => {
+                            const Component = SectionBanner
+                            return <Component key={index} {...section} data-sb-field-path={`sections.${index}`} />;
+                        })}
+                    </div>
+                )}
+                </div>
       </main>
       <Footer
         footerLogo={site.footerLogo}
