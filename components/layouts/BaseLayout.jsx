@@ -19,7 +19,7 @@ export default function BaseLayout({ site, page, children }) {
       <main className="c-layout-main">
         <div className="takui-c-site-width">
         {sections.length > 0 && (
-                    <div data-sb-field-path="sections">
+                    <div >
                         {sections.map((section, index) => {
                             const Component = SectionBanner
                             return <Component key={index} {...section} data-sb-field-path={`sections.${index}`} />;
