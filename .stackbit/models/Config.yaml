@@ -1,5 +1,5 @@
 type: data
-    label: Config
+label: Config
     file: config.json
     fields:
       - type: list
