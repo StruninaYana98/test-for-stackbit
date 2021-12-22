@@ -9,7 +9,7 @@ fields:
       type: object
       fields:
         - type: object
-              name: mainLink
+          name: mainLink
               label: Main Link
               fields:
                 - type: string
