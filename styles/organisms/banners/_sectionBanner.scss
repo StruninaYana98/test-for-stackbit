@@ -1,0 +1,102 @@
+.takui-c-section-banner {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 25rem;
+  display: flex;
+  align-items: center;
+  margin: 0 calc((100% - 100vw) / 2);
+
+  @media screen and (max-width: 767px) {
+    margin: 0 calc((100% - 100vw) / 2);
+    width: auto;
+    background-position: left;
+  }
+
+  &:after {
+    content: "";
+    background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      color-stop(7.0084485407%, rgba(255, 255, 255, 0)),
+      color-stop(79.4248399302%, #bd120a)
+    );
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 7.0084485407%,
+      #bd120a 79.4248399302%
+    );
+    background-size: cover;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+
+    @media (max-width: 576px) {
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 7.0084485407%, #bd120a 79.4248399302%);
+    }
+  }
+
+  .takui-c-banner-link {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+  }
+
+  .takui-c-site-width {
+    display: flex;
+    justify-content: flex-end;
+
+    @media (max-width: 576px) {
+      justify-content: center;
+    }
+  }
+
+  .takui-c-section-content {
+    max-width: 18.75rem;
+    position: relative;
+    z-index: 3;
+    margin: 0 5%;
+    margin-top: 3.75rem;
+    margin-bottom: 3.75rem;
+
+    @media screen and (max-width: 767px) {
+      margin-right: 0;
+    }
+
+    @media (max-width: 576px) {
+      max-width: 100%;
+      margin: 0;
+      margin-top: 12.1875rem;
+      margin-bottom: 1.375rem;
+    }
+  }
+
+  .takui-c-section-text {
+    color: #fff;
+    margin-right: 0;
+    margin-bottom: 1.25rem;
+
+    p {
+      margin: 0.75rem 0 1.75rem 0;
+    }
+  }
+
+  .takui-c-section-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+  }
+}

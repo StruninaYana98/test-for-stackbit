@@ -1,0 +1,24 @@
+.takui-c-site-width {
+  max-width: 70rem;
+  width: calc(100vw - 6.4375rem * 2);
+  margin-left: auto;
+  margin-right: auto;
+  @media screen and (max-width: 1024px) {
+    width: calc(100vw - 3rem * 2);
+  }
+  @media screen and (max-width: 767px) {
+    width: calc(100vw - 1.5rem * 2);
+  }
+  @media screen and (max-width: 310px) {
+    width: calc(100vw - 1rem * 2);
+  }
+}
+.c-layout-main {
+  overflow-x: hidden;
+  flex: 1;
+}
+.site-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
