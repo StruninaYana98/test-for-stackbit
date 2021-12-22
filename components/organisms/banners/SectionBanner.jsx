@@ -27,7 +27,7 @@ export default function SectionBanner({
         <article className="takui-c-section-content">
           <div className="takui-c-section-text">
             <h3 className="takui-c-section-title" data-sb-field-path=".title">{title}</h3>
-            <p  data-sb-field-path=".subtitle">{subtitle}</p>
+            <p  data-sb-field-path="subtitle">{subtitle}</p>
           </div>
           <div className="takui-c-section-button">
             {bannerButton ? (
