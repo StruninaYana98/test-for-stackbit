@@ -11,7 +11,7 @@ fields:
     default: My Section banner
   - type: string
     name: subtitle
-    label: Alt text
+    label: 
     default: ''
     description: The alternative text for screen readers
   - type: string
