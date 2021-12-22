@@ -28,8 +28,8 @@ fields:
                 name: text
                 label: Text
               - type: string
-                    name: href
-                    label: Href
+                name: href
+                label: Href
       - type: object
         name: headerLogo
         label: Header Logo
