@@ -1,7 +1,7 @@
 type: data
 label: Config
 file: config.json
-    fields:
+fields:
       - type: list
         name: mainNavigation
         label: Main Navigation
