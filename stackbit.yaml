@@ -30,10 +30,6 @@ models:
           models:
             - SectionBanner
     labelField: title
-  Section:
-    type: object
-    label: Section
-    labelField: title
   SectionBanner:
     type: object
     label: Section Banner
