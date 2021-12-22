@@ -26,7 +26,8 @@ export default function BaseLayout({ site, page, children }) {
                             return <Component key={index} {...section} data-sb-field-path={`sections.${index}`} />;
                         })}
                     </div>
-                )}</div>
+                )}
+                </div>
       </main>
       <Footer
         footerLogo={site.footerLogo}
