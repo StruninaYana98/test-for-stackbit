@@ -6,6 +6,7 @@ nodeVersion: '12'
 publishDir: out
 dataDir: content\data
 pagesDir: content\pages
+pageLayoutKey: layout
 assets:
   referenceType: static
   staticDir: public
