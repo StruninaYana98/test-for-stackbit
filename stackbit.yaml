@@ -23,7 +23,8 @@ models:
         label: Title
       - type: list
         name: sections
-        label: Section 
+        label: Section
+         
   config:
     type: data
     label: Config
