@@ -57,7 +57,7 @@ fields:
     label: Header Search
     fields:
       - type: string
-            name: icon
+        name: icon
             label: Icon
           - type: string
             name: placeholder
