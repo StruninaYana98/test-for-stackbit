@@ -93,7 +93,7 @@ fields:
   - type: list
     name: socialMediaLinks
     label: Social Media Links
-        items:
+    items:
           type: object
           fields:
             - type: string
