@@ -22,7 +22,7 @@ export default function BaseLayout({ site, page, children }) {
                     <div >
                         {sections.map((section, index) => {
                             const Component = SectionBanner
-                            return <Component key={index} {...section} data-sb-field-path={`sections.${index}`} />;
+                            return <Component key={index} {...section} />;
                         })}
                     </div>
                 )}
