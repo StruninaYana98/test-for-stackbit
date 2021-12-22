@@ -81,10 +81,10 @@ fields:
         - type: string
           name: text
           label: Text
-            - type: string
-              name: href
-              label: Href
-            - type: string
+        - type: string
+          name: href
+          label: Href
+        - type: string
               name: icon
               label: Icon
       - type: string
