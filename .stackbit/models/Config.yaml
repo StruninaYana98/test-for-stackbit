@@ -4,8 +4,8 @@ file: config.json
 fields:
   - type: list
     name: mainNavigation
-        label: Main Navigation
-        items:
+    label: Main Navigation
+    items:
           type: object
           fields:
             - type: object
