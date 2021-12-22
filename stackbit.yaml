@@ -35,19 +35,6 @@ models:
           models:
             - SectionBanner
     labelField: title
-  SectionBanner:
-    type: object
-    label: Section Banner
-    labelField: title
-    fields:
-      - type: string
-        name: title
-        label: Title
-        default: My Section banner
-      - type: string
-        name: subtitle
-        label: Subtitle
-        default: this is my subtitle
   config:
     type: data
     label: Config
