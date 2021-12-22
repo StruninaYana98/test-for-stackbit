@@ -101,5 +101,5 @@ fields:
           name: icon
           label: Icon
   - type: string
-        name: footerCopyrightText
-        label: Footer Copyright Text
+    name: footerCopyrightText
+    label: Footer Copyright Text
