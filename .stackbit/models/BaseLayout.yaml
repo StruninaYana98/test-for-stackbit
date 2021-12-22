@@ -1,0 +1,10 @@
+name: BaseLayout
+label: Base
+layout: BaseLayout
+hideContent: true
+fields:
+  - type: string
+    name: title
+    label: Title
+    default: This is a new page
+    required: true

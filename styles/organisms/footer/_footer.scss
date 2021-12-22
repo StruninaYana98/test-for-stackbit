@@ -1,0 +1,150 @@
+.takui-c-footer {
+  .takui-c-top-section {
+    background-color: #34373f;
+    border-bottom: 1px solid #a1a4ac;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+
+    &:hover{
+        color: #a1a4ac;
+    }
+  }
+
+  @media (min-width: 576px) {
+    .takui-c-footer-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 0;
+    }
+  }
+
+  .takui-c-company-logo {
+    height: 5.3125rem;
+    width: 7.1875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .takui-img--logo{
+      width: 7.1875rem;
+      height: 60px;
+    }
+  }
+
+  .takui-c-footer-social {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
+    a {
+      margin-right: 1rem;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    svg {
+      height: 1.5625rem;
+      pointer-events: none;
+    }
+  }
+  @media (min-width: 576px) {
+    .takui-c-footer-social {
+      order: 3;
+    }
+  }
+
+  .takui-c-global-nav {
+    margin: 0.9375rem 0;
+
+    .takui-ul {
+      flex-flow: row wrap;
+      margin-left: 1.625rem;
+    }
+
+    .takui-li-item {
+      padding: 0.4375rem 0;
+
+      a {
+        font-weight: 500;
+        text-transform: uppercase;
+      }
+      svg{
+        height: .9375rem;
+        width: 1.5rem;
+        min-width: 1.5rem;
+        margin-left: .25em;
+        
+      }
+    }
+
+    @media (min-width: 576px) {
+      .takui-li-item {
+        margin-right: 2.375rem;
+        text-align: left;
+      }
+    }
+  }
+
+  @media (min-width: 576px) {
+    .takui-c-global-nav {
+      order: 2;
+      flex-grow: 2;
+    }
+  }
+
+  .takui-c-bottom-section {
+    background-color: #34373f;
+  }
+
+  .takui-c-footer-bottom {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2.6875rem;
+
+    .takui-ul {
+      padding: 0;
+      padding-right: 1.25rem;
+      margin: 2.1875rem 0 0 0;
+    }
+
+    .takui-li-item {
+      margin-top: 0.9375rem;
+
+      &:first-child a {
+        font-weight: bold;
+        font-size: 1.25rem;
+      }
+    }
+  }
+  @media (min-width: 576px) {
+    .takui-c-footer-bottom {
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      .takui-ul {
+        flex-basis: 25%;
+        box-sizing: border-box;
+      }
+    }
+  }
+
+  .takui-c-footer-copy {
+    border-top: 2px solid #a1a4ac;
+    color: #fff;
+    padding: 1.875rem 0;
+  }
+
+  @media (min-width: 576px) {
+    .takui-c-footer-copy {
+      padding: 1.5625rem 0;
+    }
+  }
+}
