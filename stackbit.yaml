@@ -156,7 +156,7 @@ models:
         name: footerCopyrightText
         label: Footer Copyright Text
     singleInstance: true
-    file: ''
+    file: config.json
   SectionBanner:
     type: object
     label: Section Banner
