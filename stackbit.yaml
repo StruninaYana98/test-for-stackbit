@@ -11,7 +11,7 @@ assets:
   staticDir: public
   uploadDir: images
   publicPath: /
-models:
+contentModels:
   BaseLayout:
     type: page
     label: Base Page
