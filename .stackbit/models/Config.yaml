@@ -29,7 +29,7 @@ fields:
                 label: Text
               - type: string
                 name: href
-                    label: Href
+                label: Href
       - type: object
         name: headerLogo
         label: Header Logo
