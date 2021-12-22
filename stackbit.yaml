@@ -7,7 +7,7 @@ publishDir: out
 dataDir: content\data
 pagesDir: content\pages
 contentModels:
-  PageLayout:
+  BaseLayout:
     isPage: true
     urlPath: /{slug}
     newFilePath: '{slug}.md'
