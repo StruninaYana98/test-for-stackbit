@@ -18,7 +18,7 @@ fields:
             - type: string
               name: href
               label: Href
-            - type: list
+        - type: list
               name: subNavigation
               label: Sub Navigation
               items:
