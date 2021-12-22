@@ -92,7 +92,7 @@ fields:
     label: Footer Copyright Text
   - type: list
     name: socialMediaLinks
-        label: Social Media Links
+    label: Social Media Links
         items:
           type: object
           fields:
