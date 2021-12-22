@@ -11,11 +11,6 @@ assets:
   staticDir: public
   uploadDir: images
   publicPath: /
-contentModels:
-  BaseLayout:
-    isPage: true
-    urlPath: /{slug}
-    newFilePath: '{slug}.md'
 models:
   BaseLayout:
     type: page
