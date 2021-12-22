@@ -1,4 +1,5 @@
 type: data
+name: Config
 label: Config
 file: config.json
 fields:
