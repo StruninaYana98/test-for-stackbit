@@ -68,8 +68,8 @@ fields:
     fields:
       - type: string
         name: icon
-            label: Icon
-          - type: string
+        label: Icon
+      - type: string
             name: href
             label: Href
       - type: list
