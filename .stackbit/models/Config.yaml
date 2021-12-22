@@ -40,7 +40,7 @@ fields:
       - type: string
         name: icon
         label: Icon
-      - type: list
+  - type: list
         name: headerPrimaryLinks
         label: Header Primary Links
         items:
