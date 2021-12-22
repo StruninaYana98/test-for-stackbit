@@ -6,6 +6,11 @@ nodeVersion: '12'
 publishDir: out
 dataDir: content\data
 pagesDir: content\pages
+assets:
+  referenceType: static
+  staticDir: public
+  uploadDir: images
+  publicPath: /
 contentModels:
   BaseLayout:
     isPage: true
