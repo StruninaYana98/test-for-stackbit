@@ -85,8 +85,8 @@ fields:
           name: href
           label: Href
         - type: string
-              name: icon
-              label: Icon
+          name: icon
+          label: Icon
       - type: string
         name: footerCopyrightText
         label: Footer Copyright Text
