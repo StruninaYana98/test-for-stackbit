@@ -1,3 +1,4 @@
+type: page
 name: BaseLayout
 layout: BaseLayout
 hideContent: true
