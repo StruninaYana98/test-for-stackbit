@@ -23,7 +23,7 @@ modelsSource:
   type: files
   modelDirs:
     - .stackbit/models
-models:
+
   BaseLayout:
     type: page
     label: Base Page
