@@ -1,4 +1,3 @@
 type: object
 name: Section
 label: Section
-labelField: title
