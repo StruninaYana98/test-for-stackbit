@@ -21,7 +21,7 @@ models:
       - type: string
         name: title
         label: Title
-      - list:
+      - list: 
   config:
     type: data
     label: Config
