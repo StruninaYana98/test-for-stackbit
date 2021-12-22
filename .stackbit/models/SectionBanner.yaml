@@ -13,4 +13,4 @@ fields:
     default: this is my subtitle
   - type: string
     name: backgroundImagePath
-    
+    label: Background Image Path
