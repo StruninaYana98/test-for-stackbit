@@ -12,27 +12,6 @@ contentModels:
     urlPath: '/{slug}'
     newFilePath: '{slug}.md'
 models:
-  post:
-    type: page
-    label: Post
-    folder: posts
-    match: '*'
-    fields: []
-  page:
-    type: page
-    label: Page
-    match: '*'
-    fields:
-      - type: string
-        name: title
-        label: Title
-      - type: list
-        name: sections
-        label: Section
-        items:
-          type: model
-          models:
-            - SectionBanner 
   config:
     type: data
     label: Config
