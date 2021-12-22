@@ -67,7 +67,7 @@ fields:
     label: Footer Logo
     fields:
       - type: string
-            name: icon
+        name: icon
             label: Icon
           - type: string
             name: href
