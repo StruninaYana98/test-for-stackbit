@@ -16,7 +16,8 @@ export default function BaseLayout({ site, page, children }) {
         headerSearch={site.headerSearch}
       />
       <main className="c-layout-main">
-        <div className="takui-c-site-width">{sections.length > 0 && (
+        <div className="takui-c-site-width">
+        {sections.length > 0 && (
                     <div data-sb-field-path="sections">
                         {sections.map((section, index) => {
                             const Component = getComponent(section.type);
